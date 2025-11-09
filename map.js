@@ -8,4 +8,8 @@ map.set(course2, { courseId: "Level2"});
 
 // map.clear();  clear everything in map
 
-console.log(map.size);
+// map.delete(course1);
+
+map.has(course1);
+
+console.log(map.has(course1));
