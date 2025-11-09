@@ -10,6 +10,6 @@ map.set(course2, { courseId: "Level2"});
 
 // map.delete(course1);
 
-map.has(course1);
+map.forEach((value, key)=> console.log("Key: ", key, "Value: ", value));
 
-console.log(map.has(course1));
+// console.log(map);
