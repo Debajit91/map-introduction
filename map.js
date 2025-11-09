@@ -6,4 +6,6 @@ const map = new Map();
 map.set(course1, { courseId: "Level1"});
 map.set(course2, { courseId: "Level2"});
 
+// map.clear();  clear everything in map
+
 console.log(map);
