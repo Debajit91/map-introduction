@@ -8,4 +8,4 @@ map.set(course2, { courseId: "Level2"});
 
 // map.clear();  clear everything in map
 
-console.log(map);
+console.log(map.size);
